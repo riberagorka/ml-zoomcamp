@@ -1,0 +1,58 @@
+if 'data_exporter' not in globals():
+    from mage_ai.data_preparation.decorators import data_exporter
+
+
+@data_exporter
+def export_data(df, *args, **kwargs):
+    """
+    Exports data to some source.
+
+    Args:
+        data: The output from the upstream parent block
+        args: The output from any additional upstream blocks (if applicable)
+
+    Output (optional):
+        Optionally return any object and it'll be logged and
+        displayed when inspecting the block run.
+    """
+    # Specify your data exporting logic here
+    print("Starting the block...")
+    mlflow_url = 'http://localhost:5000'
+    check_mlflow_server(mlflow_url)
+
+    categorical = ['PULocationID', 'DOLocationID']
+    df[categorical] = df[categorical].astype(str)
+    train_dicts = df[categorical].to_dict(orient='records')
+
+    vec = DictVectorizer()
+    print("Vectorizing...")
+    X_train = vec.fit_transform(train_dicts)
+
+    target = 'duration'
+    y_train = df[target].values
+    print("Starting the model...")
+    model = LinearRegression()
+    model.fit(X_train, y_train)
+    print("model fitted")
+     # Log the model using MLflow
+    
+    mlflow.set_tracking_uri(mlflow_url)
+    with mlflow.start_run():
+        mlflow.sklearn.log_model(model, "linear_regression_model")
+        print("Model logged to MLflow")
+
+    # Create a DictVectorizer instance
+    vec = DictVectorizer()
+
+    # Save and log the artifact
+    artifact_path = "dict_vectorizer.pkl"
+    with open(artifact_path, "wb") as f:
+        import pickle
+        pickle.dump(vec, f)
+
+    mlflow.log_artifact(artifact_path)
+    print("Artifact logged to MLflow")
+
+    return model, vec
+
+

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/711302401648438603/94532f5ddbcc484bb38f74080b1d1980/artifacts
+end_time: 1717009229097
+entry_point_name: ''
+experiment_id: '711302401648438603'
+lifecycle_stage: active
+run_id: 94532f5ddbcc484bb38f74080b1d1980
+run_name: bright-shoat-332
+run_uuid: 94532f5ddbcc484bb38f74080b1d1980
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717009217809
+status: 3
+tags: []
+user_id: codespace

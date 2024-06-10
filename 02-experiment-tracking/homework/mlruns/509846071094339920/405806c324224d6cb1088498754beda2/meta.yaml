@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/405806c324224d6cb1088498754beda2/artifacts
+end_time: 1717008471932
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: 405806c324224d6cb1088498754beda2
+run_name: auspicious-seal-639
+run_uuid: 405806c324224d6cb1088498754beda2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008464148
+status: 3
+tags: []
+user_id: codespace

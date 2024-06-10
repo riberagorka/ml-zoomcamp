@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/112a4b7de6ae4d149e53903b3fb33edd/artifacts
+end_time: 1717008499256
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: 112a4b7de6ae4d149e53903b3fb33edd
+run_name: bustling-jay-303
+run_uuid: 112a4b7de6ae4d149e53903b3fb33edd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008490353
+status: 3
+tags: []
+user_id: codespace

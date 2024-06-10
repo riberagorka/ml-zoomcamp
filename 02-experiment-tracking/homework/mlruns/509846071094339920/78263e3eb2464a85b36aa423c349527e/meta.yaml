@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/78263e3eb2464a85b36aa423c349527e/artifacts
+end_time: 1717008522036
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: 78263e3eb2464a85b36aa423c349527e
+run_name: likeable-owl-140
+run_uuid: 78263e3eb2464a85b36aa423c349527e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008518607
+status: 3
+tags: []
+user_id: codespace

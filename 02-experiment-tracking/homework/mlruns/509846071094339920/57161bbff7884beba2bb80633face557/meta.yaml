@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/57161bbff7884beba2bb80633face557/artifacts
+end_time: 1717008478090
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: 57161bbff7884beba2bb80633face557
+run_name: abrasive-quail-234
+run_uuid: 57161bbff7884beba2bb80633face557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008472893
+status: 3
+tags: []
+user_id: codespace

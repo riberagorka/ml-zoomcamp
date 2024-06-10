@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/bec28643fedb48299198a0190b73d135/artifacts
+end_time: 1717008517645
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: bec28643fedb48299198a0190b73d135
+run_name: indecisive-toad-523
+run_uuid: bec28643fedb48299198a0190b73d135
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008514709
+status: 3
+tags: []
+user_id: codespace

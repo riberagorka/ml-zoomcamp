@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/711302401648438603/7234cb52ff1d48609379709447cf8b51/artifacts
+end_time: 1717009272791
+entry_point_name: ''
+experiment_id: '711302401648438603'
+lifecycle_stage: active
+run_id: 7234cb52ff1d48609379709447cf8b51
+run_name: skittish-shark-762
+run_uuid: 7234cb52ff1d48609379709447cf8b51
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717009263559
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/ee62c927cac2412ba09745ff24e6ac37/artifacts
+end_time: 1717008511187
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: ee62c927cac2412ba09745ff24e6ac37
+run_name: rebellious-sloth-603
+run_uuid: ee62c927cac2412ba09745ff24e6ac37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008506220
+status: 3
+tags: []
+user_id: codespace

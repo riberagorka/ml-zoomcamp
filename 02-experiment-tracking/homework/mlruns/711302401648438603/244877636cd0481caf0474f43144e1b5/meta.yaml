@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/711302401648438603/244877636cd0481caf0474f43144e1b5/artifacts
+end_time: 1717009263552
+entry_point_name: ''
+experiment_id: '711302401648438603'
+lifecycle_stage: active
+run_id: 244877636cd0481caf0474f43144e1b5
+run_name: nebulous-shrew-574
+run_uuid: 244877636cd0481caf0474f43144e1b5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717009254559
+status: 3
+tags: []
+user_id: codespace

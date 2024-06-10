@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/711302401648438603/bb4ba0e87a2249bd96558da62ab00c9c/artifacts
+end_time: 1717009254552
+entry_point_name: ''
+experiment_id: '711302401648438603'
+lifecycle_stage: active
+run_id: bb4ba0e87a2249bd96558da62ab00c9c
+run_name: judicious-mole-934
+run_uuid: bb4ba0e87a2249bd96558da62ab00c9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717009239868
+status: 3
+tags: []
+user_id: codespace

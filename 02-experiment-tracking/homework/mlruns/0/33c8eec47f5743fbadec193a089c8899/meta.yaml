@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/cohorts/2024/02-experiment-tracking/homework/mlruns/0/33c8eec47f5743fbadec193a089c8899/artifacts
+end_time: 1716986693416
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 33c8eec47f5743fbadec193a089c8899
+run_name: thundering-robin-174
+run_uuid: 33c8eec47f5743fbadec193a089c8899
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716986677413
+status: 4
+tags: []
+user_id: codespace

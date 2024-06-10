@@ -1,0 +1,84 @@
+blocks:
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file_source:
+      path: homework_03/data_loaders/taxi_data_ingest.py
+  downstream_blocks:
+  - data_feature_transformer
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: taxi_data_ingest
+  retry_config: null
+  status: executed
+  timeout: null
+  type: data_loader
+  upstream_blocks: []
+  uuid: taxi_data_ingest
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file_source:
+      path: homework_03/transformers/data_feature_transformer.py
+  downstream_blocks:
+  - to_mlflow
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: data_feature_transformer
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - taxi_data_ingest
+  uuid: data_feature_transformer
+- all_upstream_blocks_executed: true
+  color: null
+  configuration:
+    file_source:
+      path: homework_03/custom/to_mlflow.py
+  downstream_blocks: []
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: to_mlflow
+  retry_config: null
+  status: updated
+  timeout: null
+  type: custom
+  upstream_blocks:
+  - data_feature_transformer
+  uuid: to_mlflow
+cache_block_output_in_memory: false
+callbacks: []
+concurrency_config: {}
+conditionals: []
+created_at: '2024-06-07 10:53:30.981478+00:00'
+data_integration: null
+description: null
+executor_config: {}
+executor_count: 1
+executor_type: null
+extensions: {}
+name: nebulous mystic
+notification_config: {}
+remote_variables_dir: null
+retry_config: {}
+run_pipeline_in_one_process: false
+settings:
+  triggers: null
+spark_config: {}
+tags: []
+type: python
+uuid: nebulous_mystic
+variables:
+  split_feature_on_value: '2024-02-01'
+  split_on_feature: lpep_pickup_datetime
+  target: duration
+variables_dir: /home/src/mage_data/homework_03
+widgets: []

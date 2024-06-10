@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/0c023c8cfb144ae6a3245409eb4c6ecb/artifacts
+end_time: 1717008490344
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: 0c023c8cfb144ae6a3245409eb4c6ecb
+run_name: masked-loon-928
+run_uuid: 0c023c8cfb144ae6a3245409eb4c6ecb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008480946
+status: 3
+tags: []
+user_id: codespace

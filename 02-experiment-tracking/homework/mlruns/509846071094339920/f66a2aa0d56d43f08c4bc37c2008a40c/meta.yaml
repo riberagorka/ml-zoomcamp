@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/509846071094339920/f66a2aa0d56d43f08c4bc37c2008a40c/artifacts
+end_time: 1717008527171
+entry_point_name: ''
+experiment_id: '509846071094339920'
+lifecycle_stage: active
+run_id: f66a2aa0d56d43f08c4bc37c2008a40c
+run_name: valuable-goose-228
+run_uuid: f66a2aa0d56d43f08c4bc37c2008a40c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1717008522044
+status: 3
+tags: []
+user_id: codespace

@@ -1,0 +1,15 @@
+artifact_uri: file:///workspaces/mlops-zoomcamp/cohorts/2024/02-experiment-tracking/homework/mlruns/0/7f9b924896784a8daea8c1d2a39302cd/artifacts
+end_time: 1716986665270
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7f9b924896784a8daea8c1d2a39302cd
+run_name: sincere-pug-712
+run_uuid: 7f9b924896784a8daea8c1d2a39302cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716986648909
+status: 4
+tags: []
+user_id: codespace
